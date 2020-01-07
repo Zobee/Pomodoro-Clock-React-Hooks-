@@ -1,0 +1,57 @@
+.clockFace {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 4em;
+  text-align: center;
+}
+
+.intervalContainer {
+  display: flex;
+  margin: 0 20px;
+  align-items: center;
+}
+
+.sectionHeader {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.interface {
+  display: flex;
+}
+
+button {
+  padding: 5px 12px;
+  margin: 0 20px;
+  height: 25px;
+  background-color: darkslategrey;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.interfaceTime {
+  margin: 0 10px;
+}
+
+.displayContainer {
+  border: 2px solid darkslategrey;
+  margin-top: 40px;
+  border-radius: 25px;
+  width: 240px;
+  text-align: center;
+}
+
+.controlPad {
+  margin-top: 1em;
+  text-align: center;
+}
+
